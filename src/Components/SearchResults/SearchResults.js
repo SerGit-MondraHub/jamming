@@ -1,6 +1,6 @@
 
 import React from 'react';
-import 'SearchResults.css'
+import './SearchResults.css'
 
 
 export class SearchResults extends React.components
