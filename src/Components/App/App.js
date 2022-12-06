@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './App.css';
-import SearchResults from '../SearchResults/SearchResults.js';
+import {SearchResults} from '../SearchResults/SearchResults.js';
 
 //COMPONENTS:
 /*
