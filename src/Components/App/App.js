@@ -1,11 +1,12 @@
 
 import React from 'react';
 import './App.css';
+import SearchResults from '../SearchResults/SearchResults.js';
 
 //COMPONENTS:
 /*
 import SearchBar from '../SearchBar/SearchBar.js';
-import SearchResults from '../SearchResults/SearchResults.js';
+
 import Playlist from '../Playlist/Playlist.js';
 */
 
