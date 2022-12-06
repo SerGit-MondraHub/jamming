@@ -1,14 +1,10 @@
 
 import React from 'react';
 import './App.css';
+
 import {SearchResults} from '../SearchResults/SearchResults.js';
-
-//COMPONENTS:
-/*
-import SearchBar from '../SearchBar/SearchBar.js';
-
-import Playlist from '../Playlist/Playlist.js';
-*/
+import {SearchBar} from '../SearchBar/SearchBar.js';
+import {Playlist} from '../Playlist/Playlist.js';
 
 class App extends React.Component {
   constructor(props)
@@ -31,10 +27,10 @@ class App extends React.Component {
     <div>
       <h1>Ja<span className="highlight">mmm</span>ing</h1>
       <div className="App">
-        {/* <SearchBar /> */}
+        <SearchBar />
         <div className="App-playlist">
           <SearchResults searchResults={this.state.searchResults}/>
-          {/* <Playlist /> */}
+          <Playlist />
         </div>
       </div>
     </div>);
